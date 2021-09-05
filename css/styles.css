@@ -818,7 +818,9 @@ img {
 }
 
 .subscribe-form .submit {
-    position: relative;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
 
     width: 200px;
     height: 50px;
@@ -836,6 +838,10 @@ img {
 }
 
 .submit-icon {
+    margin-left: 10px;
+    margin-right: 0;
+
+    fill: var(--secondary-icon-color);
 }
 
 /* -------Бэкдроп и  модальное окно------- */
@@ -852,11 +858,11 @@ img {
     background-color: rgba(0, 0, 0, 0.2);
 }
 
-.backdrop.is-hidden {
+/* .backdrop.is-hidden {
     visibility: hidden;
     opacity: 0;
     pointer-events: none;
-}
+} */
 
 .modal {
     position: absolute;
@@ -890,4 +896,30 @@ img {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
+}
+
+/* -------Модальное окно------- */
+
+.modal-title {
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 1.15;
+    text-align: center;
+    letter-spacing: 0.03em;
+}
+.form {
+}
+.form-field {
+}
+.form-input {
+}
+.form-label {
+}
+.form-icon {
+}
+.comment {
+}
+.checkbox {
+}
+.policy-link {
 }
