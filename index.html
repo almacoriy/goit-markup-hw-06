@@ -366,7 +366,7 @@
                         </li>
                         <li class="right-item">
                             <a class="right-link link" href="https://www.linkedin.com/" target="_blank" rel="noopener noreferrer nofollow">
-                                <svg class="right-icon" width="20" height="20"><use href="./images/sprite.svg#icon-linkedin"></use></svg>
+                                <svg class="right-icon" width="20" height {}="20"><use href="./images/sprite.svg#icon-linkedin"></use></svg>
                             </a>
                         </li>
                     </ul>
@@ -374,8 +374,9 @@
                 <div class="subscribe">
                     <h2 class="footer-title">Подпишитесь на рассылку</h2>
                     <form class="subscribe-form">
-                        <label for="mail"></label>
-                        <input class="subscribe-input" type="email" name="mail" id="mail" placeholder="E-mail" />
+                        <label>
+                            <input class="subscribe-input" type="email" name="mail" placeholder="E-mail" />
+                        </label>
 
                         <button class="submit btn">
                             Подписаться<svg class="submit-icon" width="24" height="24"><use href="./images/icons.svg#icon-send"></use></svg>
@@ -395,33 +396,33 @@
 
                 <!-- Модальное окно -->
 
-                <b class="modal-title">Оставьте свои данные, мы вам перезвоним</b>
-                <form class="form" autocomplete="off">
+                <b class="form-title">Оставьте свои данные, мы вам перезвоним</b>
+                <form class="form">
                     <label class="form-field">
-                        <input class="form-input" type="text" name="name" />
                         <span class="form-label">Имя</span>
+                        <input class="form-input" type="text" name="name" />
                         <svg class="form-icon" width="18" height="18"><use href="./images/icons.svg#icon-person"></use></svg>
                     </label>
 
                     <label class="form-field">
-                        <input class="form-input" type="tel" name="tel" />
                         <span class="form-label">Телефон</span>
+                        <input class="form-input" type="tel" name="tel" />
                         <svg class="form-icon" width="18" height="18"><use href="./images/icons.svg#icon-phone"></use></svg>
                     </label>
 
                     <label class="form-field">
-                        <input class="form-input" type="email" name="mail" />
                         <span class="form-label">Почта</span>
+                        <input class="form-input" type="email" name="email" />
                         <svg class="form-icon" width="18" height="18"><use href="./images/icons.svg#icon-email"></use></svg>
                     </label>
 
-                    <label class="form-field">
-                        <textarea class="comment" name="comment" rows="10" placeholder="Введите текст"></textarea>
+                    <label class="form-field-comment">
                         <span class="form-label">Комментарий</span>
+                        <textarea class="comment" name="comment" placeholder="Введите текст"></textarea>
                     </label>
 
-                    <label class="form-field">
-                        <input class="checkbox" type="checkbox" name="policy" />
+                    <label class="form-field-checkbox">
+                        <input class="checkbox visually-hidden" type="checkbox" name="policy" />
                         <svg class="checkbox-icon" width="16" height="15">
                             <use href="./images/icons.svg#icon-check"></use>
                         </svg>
