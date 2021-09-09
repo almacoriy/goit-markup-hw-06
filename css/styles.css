@@ -802,6 +802,7 @@ img {
 .subscribe {
     margin-left: 0;
     margin-right: 0;
+    align-self: baseline;
 }
 
 .subscribe-input {
@@ -1004,11 +1005,13 @@ img {
     border-color: var(--accent-link-color);
 }
 
-.form-field-checkbox {
+.checkbox {
     display: flex;
     align-items: center;
 
     margin-bottom: 30px;
+    padding-left: 10px;
+    padding-right: 10px;
 }
 
 .checkbox-icon {
